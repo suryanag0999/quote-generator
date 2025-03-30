@@ -1,9 +1,59 @@
-# React + Vite
+# Random Quote & Image Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that fetches random quotes and images. Users can generate new quotes, copy them to the clipboard, download the image, or share on Twitter.
 
-Currently, two official plugins are available:
+## Features
+- Fetches random quotes from FreeAPI.
+- Generates random images from Picsum Photos.
+- Copy quotes to clipboard.
+- Download the displayed image.
+- Share the quote on Twitter.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/random-quote-image.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd random-quote-image
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+Start the development server:
+```sh
+npm start
+```
+
+## Project Structure
+```
+.
+├── src
+│   ├── components
+│   │   ├── QuoteImage.js
+│   │   ├── Buttons.js
+│   ├── utils
+│   │   ├── fetchImage.js
+│   │   ├── fetchQuote.js
+│   ├── App.js
+│   ├── index.js
+├── public
+│   ├── index.html
+├── package.json
+├── README.md
+```
+
+## Technologies Used
+- React.js
+- JavaScript (ES6+)
+- HTML & CSS
+
+## License
+This project is open-source and available under the MIT License.
 
